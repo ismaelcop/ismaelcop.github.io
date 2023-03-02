@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200;300;400;600;700&family=Yellowtail&display=swap');
+
+*{
+    background-image: url(img/pngtree-electronic-circuit-design-on-a-dark-purple-background-picture-image_1841456.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+    
+#persona{
+    border-radius: 10px;
+    margin-bottom: 20px;
+    border: solid black;
+}
+ul{
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+}
+img{
+    position: relative;
+}
+
+
+
+
+
+/** FORMULARIO*/
+
+.form-border {
+    display: flex;
+    padding: 5px;
+    border-style: solid;
+    border-radius: 8px;
+    border-color: black;
+    box-shadow: 2px 2px 50px rgb(117, 0, 128);
+    justify-content: center;
+    width: auto;
+}
+
+#lpm{
+    color: #f2ff02;
+    margin-left: 300px;
+    font-family: "Titillium Web";
+}
+
+#textarea{
+    margin-left: 0px;
+    margin-right: 110px;
+    margin-top: 50px;
+    font-size: 30px;
+}
+#enviame_tu_consulta{
+    color: rgb(249, 245, 6);
+    margin-left: 300px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    margin-top: 80px;
+}
+#input_nombre{
+    background: none;
+    background-color: #fff;
+ }
+ #input_email{
+    background: none;
+    background-color: #fff;
+ }
+ #input_telefono{
+    background: none;
+    background-color: #fff;
+ }
+ #comentario_textarea{
+    background: none;
+    background-color: #fff;
+    margin-top: 50px;
+    margin-bottom: 10px;
+ }
+ 
+/** FIN FORMULARIO*/
+
+
+
+a{
+    color: greenyellow;
+}
+
+#botonfinal{
+    display: none;
+}
+
+
+button{
+    border: 10;
+    background-image: linear-gradient(
+        150deg,
+        #9500ff,
+        #09f,
+        #00DDFF
+    );
+    border-radius: 8px;
+    color: #fff;
+    display: flexbox;
+    font-size: 20px;
+    padding: 4px;
+    cursor: pointer;
+    transition: .3s;    
+}
+button:hover span{
+    background: none;
+}
+button:active {
+    transform: scale(0.9);
+}
+
+
+
+/** sector encabezado**/
+
+
+#encabezado{
+    text-align: center;
+}
+.inicio .contenido-seccion .info h1{
+    color: rgb(255, 149, 0);
+    font-size: 3rem;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 5px;
+}
+.inicio .contenido-seccion .info h2{
+    font-weight: normal;
+    font-size: 30px;
+    margin-top: -10px;
+    letter-spacing: 2px;
+    color: #fff;
+}
+.inicio .contenido-seccion .info .redes{
+    margin: 20px 0;
+}
+.inicio .contenido-seccion .info .redes a{
+    display: inline-table;
+    border-radius: 10px;
+    text-decoration: none;
+    background-color: whitesmoke;
+    color: #ff008c;
+    width: 40px;
+    height: 45px;
+    line-height: 40px;
+    margin:  5px;
+    transition: .3s;
+    font-size: 30px;
+}
+.inicio .contenido-seccion .info .redes a:hover{
+    color: white;
+    box-shadow: 0 0 20px #fff;
+}
+h3{
+    color: #fff;
+}
+h2{
+    color: yellow;
+}
+
+
+
+
+
+
+
+
+/** Contacto parte inferior**/
+#contacto_1{
+    color: white;
+    
+}
+#contacto_2{
+    color: white;
+}
+#telefono_numero{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    background: none;
+}
+.contacto{
+    background-color: white;
+    padding: 14px 0 100px 0;
+    color: white;
+    text-align: center;
+}
+.contacto .contenido-seccion{
+    max-width: 1000px;
+    margin: auto;
+    padding: 0 10px;
+}
+.contacto .contenido-seccion h3{
+    text-transform: uppercase;
+    font-size: 30px;
+}
+.contacto .contenido-seccion .fila{
+    display: flex;
+    justify-content: space-around;
+}
+.contacto .contenido-seccion .fila .col{
+    margin-top: 50px;
+}
+.contacto .contenido-seccion .fila .col h2{
+    color: #f2ff02;
+}
+/*RESPONSIVE */
+@media screen and (max-width:800px){
+    }
+    .contacto .contenido-seccion .fila{
+        display: block;
+    }
