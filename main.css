@@ -181,6 +181,9 @@ a{
 
 
 #botonfinal{
+    display: none;
+}
+#botonfinalindex{
     display: flex;
 }
 
