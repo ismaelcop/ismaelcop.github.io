@@ -10,7 +10,6 @@
     <link rel="icon" type="image/x-icon" href="https://cdn-icons-png.flaticon.com/512/1412/1412353.png">
     <title>Contactame</title>
 </head>
-
 <body>
     <center>
         <a href="index.html"><button>Inicio</button></a>
@@ -20,14 +19,14 @@
     <h3 id="enviame_tu_consulta">Enviame tu consulta!!!</h3>
         <div id="lpm">
             <form action="/formulario" method="post">
-                <label for="text">Nombre</label>
+                <label for="text" id="nombre_label">Nombre</label>
                 <input type="text" name="Nombre" id="input_nombre" required placeholder="Ej: Juan Alberto....">
-                <label for="Email">Email</label>
+                <label for="Email" id="email_label">Email</label>
                 <input type="email" id="input_email" required placeholder="example@gmail.com...">
-                <label for="text">Telefono</label>
-                <input type="number" id="input_telefono" required>
+                <label for="text" id="telefono_label">Telefono</label>
+                <input type="number"id="input_telefono" required>
                     <div id="textarea">
-                        <label for="Comentario">En que te puedo ayudar?</label>
+                        <label for="Comentario" id="en_que_te_puedo_ayudar_label">En que te puedo ayudar?</label>
                         <textarea name="comentario" id="comentario_textarea" cols="100" rows="10" required placeholder="Escriba su comentario aqui..."></textarea>        
                         <div class="form-button">
                             <button class= "enviar" type="reset">Limpiar</button>
@@ -36,7 +35,7 @@
                     </div>
             </form>
         </div>
-    <section class="contacto" id="contacto">
+<section class="contacto" id="contacto">
         <div class="contenido-seccion">
             <h2 class="titulo-seccion" id="contacto_1">Contacto</h2>
             <h3 id="contacto_2">Ponte en contacto ahora!</h3>
